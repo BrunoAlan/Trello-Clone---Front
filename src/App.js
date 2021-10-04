@@ -21,7 +21,7 @@ function App() {
     <>
      <BoardTitle title='Kanban UTN'/>
       <Board>
-        {columns.map(({title}) =>(
+        {columns && columns.map(({title}) =>(
         <Column title={title}>
         <div className="column-content">
           {cards &&

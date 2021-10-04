@@ -83,5 +83,6 @@ body {
 }
 
 .card-description {
+  padding-top: 0.5em;
   font-weight: 400;
 }
